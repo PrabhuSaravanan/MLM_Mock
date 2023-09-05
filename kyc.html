@@ -91,10 +91,11 @@
     </div>
 
     <!--Left Side Menu Bar-->
-    <section >
+    <section>
       <div class="row ">
-        <div class="col-2 m-4">
-          <div class="shadow">
+        <div class="col-2">
+          
+          <div class="m-2 p-2 shadow ">
             <a href="addPost.html" ><i class="fa fa-check-square mr-2 px-2" aria-hidden="true"></i>Create Post</p>
             <a href="dashboard.html"><i class="fa fa-home mr-2 px-2" aria-hidden="true"></i>Dashboard</p>
             <a href="myaccount.html" ><i class="fa fa-user mr-2 px-2" aria-hidden="true"></i>My Account</p>
@@ -102,7 +103,21 @@
             <a href="kyc.html" ><i class="fa fa-check-square mr-2 px-2" aria-hidden="true"></i>KYC</p>
           </div>
         </div>
-        <div class="col-10 m-4">
+        <div class="col-10">
+          <div class="row">
+            <div class="mt-2 p-3 shadow col-6">
+              <label for="kycUpload">Please Upload Your KYC</label>
+              <input type="file" name="" id="kycUpload">
+              <div class="d-flex justify-content-end mt-4">
+                <button class="px-2 py-1 rounded">Save</button>
+              <button class="px-2 py-1 ml-2 rounded">Cancel</button>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/AadharCard.png" alt="AadharCard">
+            </div>
+            
+          </div>
         </div>
       </div>
     </section>

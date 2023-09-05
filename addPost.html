@@ -92,18 +92,37 @@
 
     <!--Left Side Menu Bar-->
     <section >
-      <div class="row ">
+      <div class="row">
         <div class="col-2 m-4">
-          <div class="shadow">
-            <a href="addPost.html" ><i class="fa fa-check-square mr-2 px-2" aria-hidden="true"></i>Create Post</p>
+          <div class="shadow p-2">
+            <a href="addPost.html" ><i class="fa fa-check-square mr-2 px-2 " aria-hidden="true"></i>Create Post</p>
             <a href="dashboard.html"><i class="fa fa-home mr-2 px-2" aria-hidden="true"></i>Dashboard</p>
             <a href="myaccount.html" ><i class="fa fa-user mr-2 px-2" aria-hidden="true"></i>My Account</p>
             <a href="network.html"><i class="fa fa-circle mr-2 px-2" aria-hidden="true"></i>Network</p>
             <a href="kyc.html" ><i class="fa fa-check-square mr-2 px-2" aria-hidden="true"></i>KYC</p>
           </div>
         </div>
-        <div class="col-10 m-4">
+        <div class="col-10 m-4 ">
+              <div class="row card shadow p-2 createPostWidth">
+                <div class="col-12 ">
+                    <label class="title" for="title">Title</label><br>
+                    <input  type="text" name="" id="title">
+                </div>
+                <div class="col-12 mt-2">
+                  <label class="title" for="title">Content</label> <br>
+                    <textarea  name="" id="content" ></textarea>
+                </div>
+                <div class="col-12 mt-3">
+                      <label for="images">Upload images</label>
+                      <input type="file" name="" id="images">
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button class="px-2 py-1 border bg-grey-300 rounded">Create Post</button>
+                 <button class="px-2 py-1 border bg-grey-300 rounded ml-2">Cancel</button>
+                </div>
+              </div>
         </div>
+           
       </div>
     </section>
 

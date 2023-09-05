@@ -295,6 +295,10 @@ button {
   color: #4c4c4c;
 }
 
+.login_bt_otherPages li a:hover {
+  color: white;
+}
+
 /* header section end */
 
 /* banner section start */
@@ -570,7 +574,7 @@ button {
   height: auto;
   padding: 40px 20px 30px 20px;
   box-shadow: 0px 0px 30px 0px;
-  position: absolute;
+  /* position: absolute; */
   top: 1550px;
 }
 
@@ -1019,4 +1023,15 @@ textarea#comment.update_mail::placeholder {
 
 .margin_top90 {
   margin-top: 90px;
+}
+
+/* Prabhu Saravanan : Custom CSS */
+.img-width {
+  width: 1000px;
+  height: 600px;
+}
+
+.createPostWidth {
+  width: 100vh;
+  background-color: rgba(210, 202, 210, 0.533);
 }
