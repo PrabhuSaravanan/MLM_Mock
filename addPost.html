@@ -91,40 +91,113 @@
     </div>
 
     <!--Left Side Menu Bar-->
-    <section >
+    <!-- <div>
       <div class="row">
-        <div class="col-2 m-4">
-          <div class="shadow p-2">
-            <a href="addPost.html" ><i class="fa fa-check-square mr-2 px-2 " aria-hidden="true"></i>Create Post</p>
-            <a href="dashboard.html"><i class="fa fa-home mr-2 px-2" aria-hidden="true"></i>Dashboard</p>
-            <a href="myaccount.html" ><i class="fa fa-user mr-2 px-2" aria-hidden="true"></i>My Account</p>
-            <a href="network.html"><i class="fa fa-circle mr-2 px-2" aria-hidden="true"></i>Network</p>
-            <a href="kyc.html" ><i class="fa fa-check-square mr-2 px-2" aria-hidden="true"></i>KYC</p>
+        <div class="col-2 m-3 p-2">
+          <div class="shadow d-flex flex-column">
+            <a href="addPost.html "
+              ><i class="fa fa-check-square" aria-hidden="true"></i>Create
+              Post</a
+            >
+            <a href="dashboard.html"
+              ><i class="fa fa-home" aria-hidden="true"></i>Dashboard</a
+            >
+            <a href="myaccount.html"
+              ><i class="fa fa-user" aria-hidden="true"></i>My Account</a
+            >
+            <a href="network.html"
+              ><i class="fa fa-circle" aria-hidden="true"></i>Network</a
+            >
+            <a href="kyc.html"
+              ><i class="fa fa-check-square" aria-hidden="true"></i>KYC</a
+            >
           </div>
         </div>
-        <div class="col-10 m-4 ">
-              <div class="row card shadow p-2 createPostWidth">
-                <div class="col-12 ">
-                    <label class="title" for="title">Title</label><br>
-                    <input  type="text" name="" id="title">
-                </div>
-                <div class="col-12 mt-2">
-                  <label class="title" for="title">Content</label> <br>
-                    <textarea  name="" id="content" ></textarea>
-                </div>
-                <div class="col-12 mt-3">
-                      <label for="images">Upload images</label>
-                      <input type="file" name="" id="images">
-                </div>
-                <div class="d-flex justify-content-end">
-                  <button class="px-2 py-1 border bg-grey-300 rounded">Create Post</button>
-                 <button class="px-2 py-1 border bg-grey-300 rounded ml-2">Cancel</button>
-                </div>
-              </div>
+        <div class="col-10 m-3 p-2 shadow">
+          <div>
+            <label for="title">Add Title</label>
+            <input type="text" name="" id="title" />
+
+            <label for="title">Content</label>
+            <textarea name="content" id="content"></textarea>
+
+            <label for="images">Upload images</label>
+            <input type="file" name="images" id="images" class="col-12" />
+
+            <div class="d-flex justify-content-end">
+              <button class="px-2 py-1 border bg-grey-300 rounded">
+                Create Post
+              </button>
+              <button class="px-2 py-1 border bg-grey-300 rounded ml-2">
+                Cancel
+              </button>
+            </div>
+          </div>
         </div>
-           
       </div>
-    </section>
+    </div> -->
+
+    <!--New Side Menu Bar-->
+    <div>
+      <div class="row">
+        <div class="col-2 d-flex flex-column m-4 p-2 shadow">
+          <a href="addPost.html" class="border rounded">
+            <i class="fa fa-check-square mr-2 m-2 p-1" aria-hidden="true"></i
+            >Create Post</a
+          >
+          <a href="dashboard.html" class="border rounded">
+            <i class="fa fa-home mr-2 m-2 p-1" aria-hidden="true"></i
+            >Dashboard</a
+          >
+          <a href="myaccount.html" class="border rounded">
+            <i class="fa fa-user mr-2 m-2 p-1" aria-hidden="true"></i>My
+            Account</a
+          >
+          <a href="network.html" class="border rounded">
+            <i class="fa fa-circle mr-2 m-2 p-1" aria-hidden="true"></i
+            >Network</a
+          >
+          <a href="kyc.html" class="border rounded">
+            <i class="fa fa-check-square mr-2 m-2 p-1" aria-hidden="true"></i
+            >KYC</a
+          >
+        </div>
+        <div class="row">
+          <div class="col-10 shadow m-4">
+            <div>
+              <div>
+                <label for="title">Add Title</label><br />
+                <input class="p-1 w-100" type="text" name="title" id="title" />
+              </div>
+
+              <div class="mt-3">
+                <label for="content">Add Content</label>
+                <textarea
+                  name="content"
+                  id="content"
+                  cols="100"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="mt-3">
+                <label for="images">Upload Images</label><br />
+                <input type="file" name="images" id="images" />
+              </div>
+
+              <div class="d-flex justify-content-end mt-4 mb-1 p-2">
+                <button class="rounded px-2 py-1 bg-grey-800">
+                  Create Post
+                </button>
+                <button class="rounded px-2 py-1 bg-grey-800 ml-2">
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
@@ -134,7 +207,7 @@
     <script src="js/plugin.js"></script>
 
     <!-- Sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script> -->
   </body>
 </html>
